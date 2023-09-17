@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+*{
+    font-family:font-family: 'Playfair Display', serif;;
+}
+
+body{
+    background-image:url(car-image.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+}   
+
+.square{
+    width: 320px; 
+	height: 360px; 
+	background: #b6f7f067; 
+	border: solid #180101 1px; 
+	box-shadow: 0 5px 100px rgba(0, 0, 0, 0.8)  ; 
+	-webkit-box-shadow: 0 5px 100px rgba(0, 0, 0, 0.8)  ; 
+	-moz-box-shadow: 0 5px 100px rgba(0, 0, 0, 0.8)  ;
+    border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-top-left-radius: 5px; 
+	border-top-right-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-top-right-radius: 5px; 
+	border-bottom-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-bottom-left-radius: 5px; 
+	border-bottom-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-bottom-right-radius: 5px; 
+}
+
+.square h1{
+    text-align: center;
+    font-size: 40px;
+}
+.square h2{
+    text-align: center;
+    font-size: 38px;
+}
+.square form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-box input{
+    width: 100%;
+    height: 25px;
+    border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-top-left-radius: 5px; 
+	border-top-right-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-top-right-radius: 5px; 
+	border-bottom-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-bottom-left-radius: 5px; 
+	border-bottom-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-bottom-right-radius: 5px; 
+   
+}
+.square button{
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.565);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+
+}
+.square button:hover {
+    background-color: #0077ff;
+}
+
+.input-box i {
+position: relative;
+left:180px;
+bottom: 24px;
+}
+
+
